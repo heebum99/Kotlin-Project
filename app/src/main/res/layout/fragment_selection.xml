@@ -23,6 +23,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="1. Throw it away."
+            android:textSize="20dp"
             android:background="@drawable/selection"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"/>
@@ -34,6 +35,7 @@
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="2. Water the flowers."
+            android:textSize="20dp"
             android:background="@drawable/selection"/>
         <TextView
             android:id="@+id/option_3"
@@ -43,6 +45,7 @@
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="3. Cut it off with sissors."
+            android:textSize="20dp"
             android:background="@drawable/selection"/>
         <TextView
             android:id="@+id/option_4"
@@ -52,6 +55,7 @@
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="4. Make them as dried flower."
+            android:textSize="20dp"
             android:background="@drawable/selection"/>
 
     </LinearLayout>
