@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".fragment.MainFragment">
+    tools:context=".fragment.QuestionFragment">
 
     <TextView
         android:id="@+id/textView"
@@ -32,6 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageView
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
